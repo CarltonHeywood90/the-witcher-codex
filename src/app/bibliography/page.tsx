@@ -14,13 +14,13 @@ export default function Bibliography() {
   ];
 
   return (
-    <article className="max-w-3xl mx-auto p-8 text-zinc-300">
-      <h1 className="text-4xl font-bold mb-8 text-zinc-100">The Sapkowski Canon</h1>
+    <article className="max-w-3xl mx-auto p-8">
+      <h1 className="text-4xl font-bold mb-8">The Sapkowski Canon</h1>
       <ul className="space-y-6">
         {books.map((book) => (
           <li key={book.title} className="border-b border-zinc-800 pb-4">
             <div className="flex justify-between items-baseline">
-              <span className="font-semibold text-zinc-100">{book.title}</span>
+              <span className="font-semibold">{book.title}</span>
               <span className="text-zinc-500 text-sm">{book.year}</span>
             </div>
             <div className="text-xs uppercase tracking-widest text-amber-500/80 mt-1">
