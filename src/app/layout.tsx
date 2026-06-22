@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  viewport: 'width=device-width, initial-scale=1',
   title: "The Continent Codex",
   description: "An archival catalog of Andrzej Sapkowski's dark fantasy realm.",
 };
